@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+//HOC
+import DefaultHOC from "./HOC/default.hoc"
+import MovieHOC from "./HOC/Movie.HOC";
+
+//Pages
+import HomePage from "./pages/Home.page";
+import Movie from "./pages/Movie.page";
+
+
+// Import css files
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <DefaultHOC path="/" exact component={HomePage} />
+     <MovieHOC path="/movie/:id" exact component={Movie} />
+    </>
   );
 }
-
+// / , /movie
 export default App;
