@@ -1,5 +1,7 @@
+import { Route } from "react-router-dom";
+
 //HOC
-import DefaultHOC from "./HOC/default.hoc"
+import DefaultHOC from "./HOC/Default.HOC";
 import MovieHOC from "./HOC/Movie.HOC";
 
 //Pages

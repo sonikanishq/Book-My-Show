@@ -31,7 +31,7 @@ return (
 <>
 <div className="container mx-auto px-4 flex items-center justify-between">
    <div className="flex items-center w-1/2">
-      <div className="w-30 h-12 px-3">
+      <div className="w-30 h-12 px-2">
          <img
             src="https://in.bmscdn.com/webin/common/icons/logo.svg"
             alt="logo"

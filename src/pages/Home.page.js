@@ -1,5 +1,6 @@
 import React from "react";
 import EntertainmentCardSlider from "../components/Entertainment/Entertainmentcard.component";
+import Premier from "../components/Premier/Premier.component.js";
 import PosterSlider from "../components/PosterSlider/PosterSlider.component";
 import TempPosters from "../config/TempPosters.config";
 

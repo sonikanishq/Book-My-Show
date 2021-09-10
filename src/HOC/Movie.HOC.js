@@ -7,21 +7,22 @@ import { Route } from "react-router-dom";
 //Layouts
 import MovieLayout from "../layouts/Movie.layout";
 
-const MovieHOC = ({ component: Component, ...rest }) => {
+const MovieHOC = ({ component: Component , ...rest }) => {
   //component
   //props -> path exact
   return (
     <>
-      <Route
-        {...rest}
+    <Route
+    {...rest}
 
-        component={(props) => (
-          <MovieLayout>
-            <Component {...props} />
-          </MovieLayout>
-        )
-        }
-      />
+    component = {(props) => (
+      <MovieLayout>
+       <Component {...props} />
+      </MovieLayout>
+    )
+
+    }
+     />
     </>
   );
 };
