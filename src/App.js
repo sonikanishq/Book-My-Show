@@ -1,5 +1,5 @@
 //HOC
-import DefaultHOC from "./HOC/Default.HOC";
+import DefaultHOC from "./HOC/default.hoc";
 import MovieHOC from "./HOC/Movie.HOC";
 
 //Pages
